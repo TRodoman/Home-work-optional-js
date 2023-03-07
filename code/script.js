@@ -53,7 +53,7 @@ window.addEventListener("DOMContentLoaded", () => {
         "beforeend",
         `
         <tr> 
-        <td>${id}</td>
+        <td class="td-click">${id}</td>
         <td>${name}</td>
         <td>${email}</td>
         <td>${phone}</td>

@@ -69,7 +69,7 @@ td,
 th {
   border: 1px solid black;
   height: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 table,
@@ -79,14 +79,17 @@ table,
   margin: 0 auto;
   min-width: 300px;
 }
-
-.table-click {
-  margin: 0 auto;
-}
 /* ----------------------------------- */
-.click {
-  display: flex;
+
+#down {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  height: 100vh;
+  width: 1000px;
+  background-color: coral;
 }
+
 h1 {
   font-size: 45px;
   margin: 0;
@@ -96,15 +99,16 @@ span {
   display: flex;
   font-size: 50px;
 }
-section {
+.click {
   display: flex;
 }
 
-#down {
-  border: 1px solid black;
-  margin: 10px;
-  padding: 10px;
-  height: 100vh;
-  width: 1000px;
-  background-color: coral;
+.table-click {
+  margin: 0 auto;
+}
+.td-click {
+  text-align: center;
+}
+section {
+  display: flex;
 }

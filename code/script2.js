@@ -52,9 +52,9 @@ window.addEventListener("DOMContentLoaded", () => {
         "beforeend",
         `
                 <tr>
-                <td>${id}</td>
-                <td>${clientX}</td>
-                <td>${clientY}</td>
+                <td class="td-click">${id}</td>
+                <td class="td-click">${clientX}</td>
+                <td class="td-click">${clientY}</td>
                 </tr>
                 `
       );
